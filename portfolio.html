@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Шапка сайта -->
+    <header class="header">
+      <div class="header-flex container">
+        <nav class="header-nav">
+          <a lang="en" href="./index.html" class="header-logo">
+            <span class="accent">Web</span>Studio
+          </a>
+          <ul class="header-nav-list list">
+            <li class="header-nav-item">
+              <a href="./index.html" class="header-nav-link">Студия</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="./portfolio.html" class="header-nav-link current">Портфолио</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="" class="header-nav-link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-contacts list">
+          <li class="header-contacts-item">
+            <a href="mailto:info@devstudio.com" class="header-contacts-link">info@devstudio.com</a>
+          </li>
+          <li class="header-contacts-item">
+            <a href="tel:+380961111111" class="header-contacts-link">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <!-- Портфолио -->
+      <section class="content section">
+        <div class="container">
+          <h1 class="visually-hidden section-title">Портфолио</h1>
+
+          <!-- Фильтр - набор радиокнопок -->
+          <ul class="content-set list">
+            <li class="content-set-el">
+              <button type="button" class="content-set-button">Все</button>
+            </li>
+            <li class="content-set-el">
+              <button type="button" class="content-set-button">Веб-сайты</button>
+            </li>
+            <li class="content-set-el">
+              <button type="button" class="content-set-button">Приложения</button>
+            </li>
+            <li class="content-set-el">
+              <button type="button" class="content-set-button">Дизайн</button>
+            </li>
+            <li class="content-set-el">
+              <button type="button" class="content-set-button">Маркетинг</button>
+            </li>
+          </ul>
+
+          <!-- Примеры работ -->
+          <ul class="content-items list">
+            <li class="content-items-el">
+              <a href="" class="content-items-link">
+                <img src="./images/site.jpg" alt="сайт" width="370" height="294" />
+                <div class="caption-text">
+                  <h3 class="content-items-caption title">Технокряк</h3>
+                  <p class="content-items-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="content-items-el">
+              <a href="" class="content-items-link">
+                <img src="./images/basket.jpg" alt="баскетбол" width="370" height="294" />
+                <div class="caption-text">
+                  <h3 class="content-items-caption title">Постер New Orlean vs Golden Star</h3>
+                  <p class="content-items-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="content-items-el">
+              <a href="" class="content-items-link">
+                <img src="./images/restaurant.jpg" alt="ресторан" width="370" height="294" />
+                <div class="caption-text">
+                  <h3 class="content-items-caption title">Ресторан Seafood</h3>
+                  <p class="content-items-text">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="content-items-el">
+              <a href="" class="content-items-link">
+                <img src="./images/headphones.jpg" alt="наушники" width="370" height="294" />
+                <div class="caption-text">
+                  <h3 class="content-items-caption title">Проект Prime</h3>
+                  <p class="content-items-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="content-items-el">
+              <a href="" class="content-items-link">
+                <img src="./images/boxes.jpg" alt="коробки" width="370" height="294" />
+                <div class="caption-text">
+                  <h3 class="content-items-caption title">Проект Boxes</h3>
+                  <p class="content-items-text">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="content-items-el">
+              <a href="" class="content-items-link">
+                <img src="./images/monitor.jpg" alt="монитор" width="370" height="294" />
+                <div class="caption-text">
+                  <h3 class="content-items-caption title">Inspiration has no Borders</h3>
+                  <p class="content-items-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="content-items-el">
+              <a href="" class="content-items-link">
+                <img src="./images/book.jpg" alt="книга" width="370" height="294" />
+                <div class="caption-text">
+                  <h3 class="content-items-caption title">Издание Limited Edition</h3>
+                  <p class="content-items-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="content-items-el">
+              <a href="" class="content-items-link">
+                <img src="./images/label.jpg" alt="этикетка" width="370" height="294" />
+                <div class="caption-text">
+                  <h3 class="content-items-caption title">Проект LAB</h3>
+                  <p class="content-items-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="content-items-el">
+              <a href="" class="content-items-link">
+                <img src="./images/notebook.jpg" alt="ноутбук" width="370" height="294" />
+                <div class="caption-text">
+                  <h3 class="content-items-caption title">Growing Business</h3>
+                  <p class="content-items-text">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+      <div class="container">
+        <a lang="en" href="./index.html" class="footer-logo">
+          <span class="accent">Web</span>Studio
+        </a>
+        <address>
+          <ul class="footer-contacts list">
+            <li class="footer-contacts-el">
+              <a
+                class="footer-contacts-address"
+                href="https://goo.gl/maps/7NLyf6NmW3WCzavR7"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li class="footer-contacts-el">
+              <a href="mailto:info@example.com" class="footer-contacts-link">info@example.com</a>
+            </li>
+            <li class="footer-contacts-el">
+              <a href="tel:+380991111111" class="footer-contacts-link">+38 099 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </footer>
+  </body>
+</html>
