@@ -254,6 +254,7 @@ img {
 /* Особенности */
 .features-title {
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -389,7 +390,8 @@ img {
   fill: currentColor;
 }
 
-.clients-link:hover {
+.clients-link:hover,
+.clients-link:focus {
   border: 1px solid var(--accent-color);
   color: var(--accent-color);
 }
@@ -554,7 +556,7 @@ img {
   margin-bottom: 20px;
 
   font-weight: 700;
-  line-height: 16px;
+  line-height: 1.14;
   text-transform: uppercase;
 
   color: #ffffff;
