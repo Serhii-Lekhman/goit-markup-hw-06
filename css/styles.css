@@ -166,6 +166,7 @@ img {
 
   color: var(--title-text-color);
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contacts-link {
@@ -176,6 +177,7 @@ img {
 
   color: var(--primary-text-color);
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-icon {
@@ -191,7 +193,6 @@ img {
 .header-icon:focus,
 .header-nav-link.current {
   color: var(--accent-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav-item {
@@ -274,8 +275,6 @@ img {
 .hero-button:focus {
   background-color: var(--primary-white-color);
   color: var(--accent-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Особенности */
@@ -331,9 +330,10 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-
   font-weight: 700;
   line-height: 1.14;
+  font-size: 14px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
 
@@ -400,14 +400,14 @@ img {
   color: #afb1b8;
   background-color: #ffffff;
   border-radius: 50%;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .command-link:hover,
 .command-link:focus {
   color: #ffffff;
   background-color: var(--accent-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .command-icon {
@@ -435,6 +435,8 @@ img {
   background-color: #ffffff;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-icon {
@@ -445,8 +447,6 @@ img {
 .clients-link:focus {
   border: 1px solid var(--accent-color);
   color: var(--accent-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Кнопки портфолио 2 страница */
@@ -474,6 +474,9 @@ img {
 
   background-color: #f5f4fa;
   border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .content-set-button:hover,
@@ -483,9 +486,6 @@ img {
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Примеры работ портфолио 2 страница */
@@ -500,6 +500,9 @@ img {
   margin-right: 30px;
   margin-bottom: 30px;
   flex-basis: calc(100% / 3-30);
+
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .content-items-el:hover,
@@ -507,8 +510,6 @@ img {
   background: #ffffff;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Альтернатива */
@@ -558,8 +559,6 @@ img {
 .content-items-link:hover .content-overlay {
   transform: translateX(0);
   opacity: 1;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .content-overlay-text {
@@ -573,7 +572,6 @@ img {
   font-size: 18px;
   line-height: 1.55;
   color: #ffffff;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .content-items-caption {
@@ -638,6 +636,8 @@ img {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-contacts-address {
@@ -649,7 +649,6 @@ img {
 .footer-contacts-link:hover,
 .footer-contacts-link:focus {
   color: var(--accent-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-title {
@@ -679,12 +678,12 @@ img {
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link:hover,
 .footer-link:focus {
   background-color: var(--accent-color);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon {
